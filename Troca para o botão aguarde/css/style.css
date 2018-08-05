@@ -1,0 +1,12 @@
+.btn button {
+	border: 3px solid #070707;
+	font-size: 50px;
+	font-family: 'Raleway', sans-serif;
+	background-color: #fafafa; 
+	letter-spacing: .1em;
+}
+
+.btn button:hover{
+	color: #43769f;
+	border-color: #43769f;
+}
