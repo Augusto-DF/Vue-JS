@@ -1,3 +1,12 @@
+.btn a { 
+	border: 3px solid grey;
+	font-size: 50px;
+	font-family: 'Raleway', sans-serif;
+	color: grey;
+	background-color: #fafafa; 
+	letter-spacing: .1em;
+}
+
 .btn button {
 	border: 3px solid #070707;
 	font-size: 50px;
@@ -8,5 +17,8 @@
 
 .btn button:hover{
 	color: #43769f;
-	border-color: #43769f;
+	border-color: blue;
 }
+
+
+
