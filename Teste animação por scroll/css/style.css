@@ -1,0 +1,55 @@
+
+.bg {
+	background-color: #576fbe;
+	background-size: cover;
+	margin: 0 80px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.titulo {
+	text-align: center;	
+	font-size: 50px;
+	color: #00123a;
+	height: 500px;
+	padding: 50px;
+}
+
+.titulo::after {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 300px;
+	background: black;
+	margin: 0 auto;
+}
+
+.quadrado {
+	font-size: 30px;
+	color: #00123a;
+	text-align: left;
+	/*border: 3px solid black;*/
+	margin-bottom: 30px;
+	font-weight: bold;
+	padding-left: 90px;
+}
+
+body {
+	background-size: cover;
+	background-color: #e56666;
+}
+
+.bg p{
+	padding-bottom: 600px;
+	padding-left: 50px;
+}
+
+.animacao {
+	opacity: 0;
+	transform: translate3d(-60px, 0px, 0px);
+}
+
+.animeI {
+	opacity: 1;
+	transition: .2s all ease;
+	transform: translate3d(0px, 0px, 0px);
+}
